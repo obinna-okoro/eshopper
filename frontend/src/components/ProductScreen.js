@@ -85,6 +85,8 @@ const addToCartHandler = async () => {
 
 }
 
+
+
   return (
     loading? <LoadingBox/>
     :
