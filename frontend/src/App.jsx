@@ -15,6 +15,8 @@ import { Link } from 'react-router-dom';
 import { Store } from './context/store';
 import Cart from './components/Cart';
 import Signin from './components/Signin';
+import ShippingAddress from './components/ShippingAddress';
+import SignUp from './components/SignUp';
 
 const App = () => {
   const {state, dispatch: ctxDispatch } = useContext(Store)
@@ -24,6 +26,7 @@ const App = () => {
   const signoutHandler = () => {
     ctxDispatch({type: "USER_SIGNOUT"});
     localStorage.removeItem("userInfo")
+    localStorage.removeItem("shippingAddress")
   }
   return (
     <BrowserRouter>
@@ -83,6 +86,8 @@ const App = () => {
          <Route path='/product/:slug' element={<ProductScreen/>}/>
          <Route path='/cart' element={<Cart/>}/>
          <Route path='/signin' element={<Signin/>}/>
+         <Route path='/shipping' element={<ShippingAddress/>}/>
+         <Route path='/signup' element={<SignUp/>}/>
        </Routes>
        </Container>
     </main>
