@@ -11,6 +11,7 @@ import ProductScreen from './components/ProductScreen';
 import { Link } from 'react-router-dom';
 import { Store } from './context/store';
 import Cart from './components/Cart';
+import Signin from './components/Signin';
 
 const App = () => {
   const {state } = useContext(Store)
@@ -50,6 +51,7 @@ const App = () => {
          <Route path='/' element={<Home/>}/>
          <Route path='/product/:slug' element={<ProductScreen/>}/>
          <Route path='/cart' element={<Cart/>}/>
+         <Route path='/signin' element={<Signin/>}/>
        </Routes>
        </Container>
     </main>
