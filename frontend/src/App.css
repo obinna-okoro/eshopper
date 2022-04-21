@@ -35,7 +35,7 @@ flex: 1;
 
 
 .product {
-    border: 1px solid #404040;
+    /* border: 1px solid #404040; */
     margin: 1rem;
 
 }
@@ -43,7 +43,12 @@ flex: 1;
 .product img {
     width: 100%;
     max-width: 400px;
+    height: 300px;
+    
 }
+
+
+
 
 .product-info {
     padding: 1rem;

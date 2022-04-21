@@ -128,7 +128,7 @@ const addToCartHandler = async () => {
           <ListGroup variant="flush">
             <ListGroup.Item>
               <Col>Price:</Col>
-              <Col>${product.price}</Col>
+              <Col>{product.price} Euro</Col>
             </ListGroup.Item>
             <ListGroup.Item>
               <Col>Status:</Col>
