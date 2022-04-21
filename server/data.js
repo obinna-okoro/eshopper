@@ -76,7 +76,7 @@ const data = {
     description: "high quality product"
 },
 {  
-    //  _id:"4",
+    //  _id:"5",
     name: "Apple Smart Watch",
     slug: "apple-smart-watch",
     category: "electronics",
@@ -84,6 +84,19 @@ const data = {
     price: 250,
     countInStock: 5,
     brand: "Apple",
+    rating: 4.5,
+    numReviews: 17,
+    description: "high quality product"
+},
+{  
+    //  _id:"6",
+    name: "JBL Tune 500BT",
+    slug: "jbl-tune-500bt",
+    category: "electronics",
+    image: "https://de.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwb1930a68/JBL_TUNE500BT_Product-Image_Hero_Blue-1605x1605px.png?sw=537&sfrm=png",
+    price: 49.99,
+    countInStock: 5,
+    brand: "JBL",
     rating: 4.5,
     numReviews: 17,
     description: "high quality product"
